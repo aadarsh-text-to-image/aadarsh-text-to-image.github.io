@@ -1,3 +1,5 @@
+// Aa2I v1.1
+
 function generateImage(e) {
 	e.preventDefault();
 	var inputText = document.getElementById("textInput").value;
