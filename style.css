@@ -62,7 +62,22 @@ body {
 
 h1 {
 	font-size: 32px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+.by {
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+.copyrights {
+	font-size: 12px;
+	font-weight: bold;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 }
 
@@ -83,6 +98,7 @@ input[type="text"] {
 	border-radius: 5px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input[type="text"]:focus {
@@ -101,6 +117,7 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: all 0.3s ease;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button:hover {
