@@ -1,0 +1,47 @@
+<!-- Aa2I v1.2 -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="images/aa2i_logo.png" type="image/x-icon">
+		<title>Aa2I v1.2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta property="og:image" content="" />
+		<meta property="og:title" content="Aa2I v1.2" />
+		<meta property="og:description" content="Text to Image Generator by Aadarsh" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>	
+		<div class="container">
+			<h1>Text to Image Generator</h1>
+			<div class="by" style="text-align: center;">by Aadarsh Lalchandani</div>
+			<form>
+				<input type="text" id="textInput" placeholder="A dog running in the grass" />
+				<button type="button" id="submitBtn">Generate Image</button>
+			</form>
+			
+			<div id="loadingAnimation">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+			</div>
+			
+			<div class="result"></div>
+			<div class="copyrights">
+                <div class="col-md-12 text-center">
+                    <i class="icon-heart color-danger" aria-hidden="true"></i>
+                    <i class="icon-heart color-danger" aria-hidden="true"></i>
+                    <p class="mt-5">Aa2I v1.2 &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </p>
+                </div>
+            </div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
