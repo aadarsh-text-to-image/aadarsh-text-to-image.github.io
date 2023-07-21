@@ -29,7 +29,7 @@ function generateImage(e) {
 			loadingElement.classList.remove("play");
 			document.querySelector(".result").appendChild(imgelem);
 			const generatedImage = document.getElementById("generatedImage");
-			generatedImage.src = data.url;
+			generatedImage.src = data;
 		})
 		.catch((error) => {
 			loadingElement.classList.remove("play");
