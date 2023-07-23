@@ -4,7 +4,8 @@ function generateImage(e) {
 	e.preventDefault();
 	var inputText = document.getElementById("textInput").value;
 	var text = inputText.split(" ").join("%20");
-	var url = `https://aa2i.onrender.com/t2i/${text}`; // paste URL here
+	// var url = `https://aa2i.onrender.com/t2i/${text}`;
+	var url = `https://b3ude6lubemuuvqmngjpwm7jlm0sjapc.lambda-url.ap-south-1.on.aws/t2i/${text}`;
 	var imgelem = document.createElement("img");
 	imgelem.setAttribute("alt", "generated_image");
 	imgelem.setAttribute("id", "generatedImage");
